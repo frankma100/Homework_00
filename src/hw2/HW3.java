@@ -4,14 +4,15 @@ public class HW3 {
     
 	public static void main(String[] args) {
 		
-	    int x = 1, i = 1;
+	    int Product = 1, i = 1;
 		
 		while(i <= 10){
-			x *= i;
+			Product *= i;
 			i++;
+			
 		}
 		
-		System.out.println(x);
+		System.out.println(Product);
 
 	}
 }

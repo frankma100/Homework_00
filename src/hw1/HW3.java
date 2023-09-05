@@ -10,7 +10,7 @@ public class HW3 {
 		int h=(T/60/60)/24;
 		int d=T/60/60/24;
 		
-		System.out.println("256559秒="+d+'天'+h+'時'+m+'分'+t+'秒');
+		System.out.println(T+"秒="+d+'天'+h+'時'+m+'分'+t+'秒');
 
 	}
 
