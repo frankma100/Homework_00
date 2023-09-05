@@ -11,7 +11,7 @@ public class HW7 {
 
 			}
 			
-				System.out.println();
+				System.out.println("\n");
 
 		}
 
