@@ -6,7 +6,7 @@ public class HW1 {
 		
 		int sum = 0;
 		
-		for(int i = 2; i <= 1000; i+=2){
+		for(int i = 2; i <= 1000; i++){
 			sum += i;
 			
 		}
