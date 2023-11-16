@@ -24,5 +24,6 @@ public class HW2 {
 		break;
      	}
 	}
+		sr.close();
 	}
 }

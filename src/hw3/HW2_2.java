@@ -27,6 +27,8 @@ public class HW2_2 {
 				guess = sr.nextInt();
 			}
 		}
+		
+		sr.close();
 		System.out.println("答對了!答案就是" +ans);
 		
 	}

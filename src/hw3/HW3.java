@@ -10,6 +10,8 @@ public class HW3 {
 		System.out.println("阿文...請輸入你討厭1~9哪個數字?：") ;
 
 		int num = sc.nextInt();
+		
+		sc.close();
 
 		int amount =0;
 		
@@ -25,11 +27,11 @@ public class HW3 {
 			} else {
 				System.out.print(i+" ");
 				amount = amount+1;
-			}
-			
+			}	
 		}
 		
 		System.out.println("\n"+"總共有" + amount + "數字可選");
+		
 		
 	}
 }

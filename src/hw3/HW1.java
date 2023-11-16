@@ -12,6 +12,7 @@ public class HW1 {
 		int b = sc.nextInt();
 		int c = sc.nextInt();
 		
+		sc.close();
 		
 		if (a + b <= c || a + c <= b || c + b <= a) {
 			System.out.println("不是三角形");
